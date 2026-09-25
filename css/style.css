@@ -426,8 +426,6 @@ margin-left: 30px;
     margin-right: 10px;
     
 }
-
-
 .dots .active {
     background-color: #2563eb;
 }
@@ -638,8 +636,6 @@ font-size: 50px;
     line-height: 40px;
     color: #F8FAFC;
     font-size: 20px;
-    
-    
 }
 .team-item a:hover {
     background-color: #2563EB;
@@ -691,10 +687,7 @@ font-size: 50px;
 
 .pricing-card ul {
     list-style: none;
-    margin-bottom: 25px;
-    
-    
-    
+    margin-bottom: 25px;  
 }
 
 .pricing-card ul li {
@@ -703,11 +696,7 @@ font-size: 50px;
     font-size: 14px;
     margin-bottom: 12px;
     margin-right: 50px;
-    text-align: left;
-    
-    
-    
-    
+    text-align: left; 
 }
 
 .pricing-card button {
@@ -715,7 +704,7 @@ font-size: 50px;
     border: 1px solid #3B82F6;
     border-radius: 8px;
     background-color: transparent;
-        color: #60A5FA;
+    color: #60A5FA;
     font-size: 14px;
     font-weight: 600;
     cursor: pointer;
@@ -751,7 +740,6 @@ margin: auto;
     padding-left: 3px;
 
 }
-/* 30 */
 .pricing-card:focus {
     width: 430px;
     height: 590px;
@@ -831,23 +819,19 @@ margin: auto;
     line-height: 1.6;
     margin-top: 25px;
 }
-/*  //// */
 .news {
     padding: 70px 5%;
     background-color: #050A14;
     text-align: center;
 }
-
 .news-title {
     color: white;
     font-size: 36px;
     margin-bottom: 10px;
 }
-
 .news-title span {
     color: #3B82F6;
 }
-
 .news-p {
     color: #B8C4D8;
     margin-bottom: 40px;
@@ -856,7 +840,6 @@ margin: auto;
 .news-parent {
     text-align: center;
 }
-
 .news1,.news2,.news3 {
     display: inline-block;
     width: 29%;
@@ -869,9 +852,6 @@ margin: auto;
     transition: 0.3s ;
     position: relative;
 }
-
-
-
 .news1 img,.news2 img,.news3 img {
     width: 90%;
     height: 210px;
@@ -880,7 +860,6 @@ margin: auto;
     border-radius: 10px;
     position: relative;
     z-index: 2;
-    
 }
 
 .news1 h4,.news2 h4,.news3 h4 {
@@ -925,8 +904,6 @@ margin: auto;
     height: 0;
     background-color: rgba(37, 99, 235, 0.18);
     transition: 1s ;
-    
-    
 }
 .news1:hover::after,.news2:hover::after,.news3:hover::after {
     height: 100%;
@@ -961,10 +938,13 @@ margin: auto;
 
 .footer-box {
     display: inline-block;
-    vertical-align: top;
     width: 21%;
     margin: 0 15px;
     text-align: left;
+}
+.contact-last {
+    position: relative;
+    top: -70px;
 }
 
 .footer-box h2 {
@@ -991,12 +971,14 @@ margin: auto;
     text-decoration: none;
     margin-bottom: 12px;
     font-size: 14px;
-    transition: 0.3s ;
+    transition: 0.3s;
 }
 
 .footer-box > a:hover {
     color: #3B82F6;
 }
+
+
 
 .footer-box i {
     color: #3B82F6;
@@ -1028,16 +1010,7 @@ margin: auto;
 .footer-icons a:hover i {
     color: white;
 }
-.footer-box > a::before {
-    content: "";
-    display: inline-block;
-    width: 5px;
-    height: 5px;
-    background-color: #3B82F6;
-    border-radius: 50%;
-    margin-right: 10px;
-    
-}
+
 .footer-bottom {
     margin-top: 45px;
     padding: 20px;
