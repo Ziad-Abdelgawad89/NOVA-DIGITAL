@@ -8,7 +8,7 @@ body{
     font-family: 'Nunito', sans-serif;
 }
 .first-page{
-    background-image:url(../imges/bkg2.png);
+    background-image:url(../images/bkg2.png);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -437,7 +437,7 @@ margin-left: 30px;
 }
 
 .client{
-    background-image: url(../imges/bkg\ choose.png);
+    background-image: url(../images/bkg\ choose.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -774,7 +774,7 @@ margin: auto;
    
     height: 500px;
     width: 100%;
-    background-image: url(../imges/team\ say2.png);
+    background-image: url(../images/team\ say2.png);
     background-size: 100% 100%;
     background-repeat: no-repeat;
     background-attachment: fixed;
