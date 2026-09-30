@@ -966,7 +966,7 @@ margin: auto;
 }
 
 .footer-box > a {
-    display: block;
+    display: inline-block;
     color: #B8C4D8;
     text-decoration: none;
     margin-bottom: 12px;
@@ -977,7 +977,15 @@ margin: auto;
 .footer-box > a:hover {
     color: #3B82F6;
 }
-
+.circle{
+    display: inline-block;
+    width: 7px;
+    height: 7px;
+    background-color: #3B82F6;
+    border-radius: 50%;
+    margin-right: 10px ;
+    
+}
 
 
 .footer-box i {
